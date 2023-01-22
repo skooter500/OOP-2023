@@ -2,8 +2,7 @@
 
 # Teams Links for online classes:
 
-- [Join the class on Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTE2YWIwOTAtNmVmOS00MmIyLWIzYjYtZDBmN2QzYzI2Y2Ix%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
-
+- [Join the class on Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2M4NDdlNGEtZThkNy00NWNjLTgwZDctOGZiZjY4ZWY4YjNj%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
 Resources
 ---------
 - [Install the software you will need for this module](install.md)
@@ -47,8 +46,6 @@ Resources
 
 ## Tutorial
 - [Coding Bat](https://codingbat.com/)
-- [Recording of the tutorial](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ef4FQNmY0_RPhfThsQXdeA4B2KK_au45dNApXjVrfJkbZQ?e=JFDIGG)
-
 
 ## Lab
 ## Learning outcomes
