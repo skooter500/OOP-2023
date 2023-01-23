@@ -42,14 +42,6 @@ Rubric
 | Pass | Something very basic that is just a small modification of the code we developed in the class. Missing documentation. Completed in the days before the submission deadline and minimal or missing documentation. |
 | Fail | Project won't compile or major issues. |
 
-Some assignments from previous years:
-
-- https://www.youtube.com/watch?v=TY6Wv9lr72A
-
-- https://www.youtube.com/watch?v=cW8s5i9dmqA
-
 Rules!
 
-- As much as possible this project should be 100% your own code. 
-- There will be a feedback session after the assignment where you will have the opportunity to get individual feedback on your submission and have your mark explained to you.
 - If you need to submit an assignment late, you can submit a PC/1 form to the exams office.

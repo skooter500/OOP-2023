@@ -1,8 +1,11 @@
 # TU856/TU858 Object Oriented Programming 2023
 
-# Teams Links for online classes:
+![Logo](images/logo.png)
 
-- [Join the class on Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2M4NDdlNGEtZThkNy00NWNjLTgwZDctOGZiZjY4ZWY4YjNj%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+Teams:
+
+[![World Videophone](images/wvp.jpg)](https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2M4NDdlNGEtZThkNy00NWNjLTgwZDctOGZiZjY4ZWY4YjNj%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+
 Resources
 ---------
 - [Install the software you will need for this module](install.md)
@@ -44,6 +47,8 @@ Resources
 ## Lecture
 - [Introduction Slides](https://tudublin-my.sharepoint.com/:p:/g/personal/bryan_duggan_tudublin_ie/EYXKcGlJFllBoLfJ_GjdH8ABu2OQCKyRsXuqlPqb3yXMtA?e=7hN0YC)
 
+- [Recording of the end of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ERkxYbiWRcNPpoCuE4DuFjwB9bjvftOJeo26YQDjXm_OJA?e=Q1suyr)
+
 ## Tutorial
 - [Coding Bat](https://codingbat.com/)
 
@@ -63,7 +68,7 @@ Install the software you will need for this module and set up your path to the J
 Firstly fork *this* repository by clicking the fork button above, so that you get your own copy of the course repo to work on this semester. Now create a new empty folder on your computer somewhere right click on the folder and choose git bash here. Alternatively you can start the bash and cd to the new folder. To clone the repository for your fork:
 
 ```bash
-git clone https://github.com/YOURGITUSERNAME/OOP-2021-2022
+git clone https://github.com/YOURGITUSERNAME/OOP-2023
 ```
 
 Replace YOURGITUSERNAME with your github username. You can also copy the URL to the repo from your browser and paste it into the console. To paste into the bash on Windows is right click. You can use Cmd + C, Cmd + V on the Mac.
@@ -71,23 +76,23 @@ Replace YOURGITUSERNAME with your github username. You can also copy the URL to 
 Now cd into the repo and check the origin and upstream remotes are set up correctly
 
 ```bash
-cd OOP-2021-2022
+cd OOP-2023
 git remote -v
 ```
 
 You should see something like this:
 
 ```bash
-origin  https://github.com/YOURGITUSERNAME/OOP-2021-2022 (fetch)
-origin  https://github.com/YOURGITUSERNAME/OOP-2021-2022 (push)
-upstream  https://github.com/skooter500/OOP-2021-2022 (fetch)
-upstream  https://github.com/skooter500/OOP-2021-2022 (push)
+origin  https://github.com/YOURGITUSERNAME/OOP-2023 (fetch)
+origin  https://github.com/YOURGITUSERNAME/OOP-2023 (push)
+upstream  https://github.com/skooter500/OOP-2023 (fetch)
+upstream  https://github.com/skooter500/OOP-2023 (push)
 ```
 
 If you don't see the upstream remote, you can set it up by typing
 
 ```bash
-git remote add upstream https://github.com/skooter500/OOP-2021-2022
+git remote add upstream https://github.com/skooter500/OOP-2023
 ```
 You can read more about forking a git repository and setting up the upstream remote in [this article](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 
@@ -104,7 +109,7 @@ git push
 
 ## Part 3 - Compiling & running Java
 
-Open the OOP-2021-2022 folder in Visual Studio Code. You can run your program by choosing Run | Start Debugger. *Important for users of the Lab computers* In the labs you should use the shell scripts ```compile.sh``` and ```run.sh``` located in the Java folder to compile and run your code. You can run these from the Bash. 
+Open the OOP-2023 folder in Visual Studio Code. You can run your program by choosing Run | Start Debugger. *Important for users of the Lab computers* In the labs you should use the shell scripts ```compile.sh``` and ```run.sh``` located in the Java folder to compile and run your code. You can run these from the Bash. 
 
 You should see
 
