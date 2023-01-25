@@ -151,9 +151,11 @@ The "--set-upstream origin lab1" option is only required the first time you comm
 
 Checkout the branch HelloProcessing by typing
 
+```bash
+git checkout HelloProcessing
 ```
-git checkout HelloProcessing from the bash
-```
+
+from the bash.
 
 Press F5 and if all goes well, you should see something that looks like this:
 
