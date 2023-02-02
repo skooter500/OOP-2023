@@ -47,6 +47,9 @@ Resources
 ## Lecture
 - [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EVMza0r4Z2hFuMUml87RwMsBE5yPcc7J_UArimAKbAFWlQ?e=ePh9de) 
 
+## Tutorial
+- [Recording](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ERXftZvs-4xJsE8KwounpAsBVd85RQAn2jMdIJ1tsrAvfA?e=VG5uBx) 
+
 ## Lab
 
 ## Learning Outcomes
