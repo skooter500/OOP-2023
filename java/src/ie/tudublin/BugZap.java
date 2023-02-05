@@ -35,13 +35,14 @@ public class BugZap extends PApplet {
 	 */
 	public void setup() {
 		settings();
-		background(0);
 	}
 
 	/**
 	 * Called frequently
 	 */
 	public void draw() {
+		background(0);
+		fill(255);
 		drawPlayer(playerX, playerY, playerWidth);
 		drawBug(bugX, bugY, bugW);
 		moveBug();
@@ -66,8 +67,6 @@ public class BugZap extends PApplet {
 			bugY += 30;
 			// move the bug a random step left or right
 			bugX += random.nextInt(-50, 50);
-			background(0);
-
 		}
 
 	}
@@ -93,7 +92,6 @@ public class BugZap extends PApplet {
 	}
 
 	public void keyPressed() {
-		background(0);
 		if (keyCode == LEFT) {
 			// System.out.println("Left arrow pressed");
 			playerX -= VELOCITY;
