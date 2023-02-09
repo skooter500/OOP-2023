@@ -1,3 +1,4 @@
+// C21379483 Máté Mikus BugZap game week 2 lab.
 package ie.tudublin;
 
 import java.util.Random;
