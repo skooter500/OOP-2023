@@ -9,6 +9,12 @@ public class Main
         processing.core.PApplet.runSketch( a, new HelloProcessing());
     }
 
+	public static void loops()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Loops());
+    }
+
 	public static void bugZap()
 	{
 		String[] a = {"MAIN"};
@@ -23,7 +29,7 @@ public class Main
 		penny.setName("Penny");
 		penny.speak();
 
-		bugZap();
+		loops();
 	}
 	
 }
