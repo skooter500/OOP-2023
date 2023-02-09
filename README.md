@@ -46,6 +46,9 @@ Resources
 - No class because of the bank holiday
 - Lots of amazing things happened in tech!
 
+### Tutorial
+- [Recording of the tutorial](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ETZxKYxvO_JCgO8VAtE8NCkBnVPbhKHdeE5F3aiiEd95Kw?e=wYOaxB)
+
 ### Lab
 
 What a time to be alive!
