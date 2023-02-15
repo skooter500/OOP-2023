@@ -48,49 +48,58 @@ Resources
 
 ## Lab 
 - Update the master branches of your repos to the code we worked on in Monday's class
-- Complete [the lab test from 2016](https://github.com/skooter500/OOP-LabTest1-2016/blob/master/readme.md)
+	```
+	git checkout master
+	git pull upstream master
+	```
 
-This is how you can load the file into an ArrayList of Star objects:
+- Create a branch for your work today
+	```
+	git checkout -b lab4
+	```
+- Do some work on [the lab test from 2016](https://github.com/skooter500/OOP-LabTest1-2016/blob/master/readme.md). We started this in Monday's class, so you have some starter code
 
-```Java
-void loadStars()
-    {
-        Table table = loadTable("HabHYG15ly.csv", "header");
-        for(TableRow r:table.rows())
-        {
-            Star s = new Star(r);
-            stars.add(s);
-        }
-    }
-```
+	This is how you can load the file into an ArrayList of Star objects:
 
-You can make Constructors for Star class like this:
+	```Java
+	void loadStars()
+		{
+			Table table = loadTable("HabHYG15ly.csv", "header");
+			for(TableRow r:table.rows())
+			{
+				Star s = new Star(r);
+				stars.add(s);
+			}
+		}
+	```
 
-```Java
-public Star(TableRow tr)
-    {
-        this(
-            tr.getInt("Hab?") == 1, 
-            tr.getString("Display Name"), 
-            tr.getFloat("Distance"),
-            tr.getFloat("Xg"),
-            tr.getFloat("Yg"),
-            tr.getFloat("Zg"),
-            tr.getFloat("AbsMag")
-        );
-    }
-    
-    public Star(boolean hab, String displayName, float distance, float xG, float yG, float zG, float absMag) {
-        this.hab = hab;
-        this.displayName = displayName;
-        this.distance = distance;
-        this.xG = xG;
-        this.yG = yG;
-        this.zG = zG;
-        this.absMag = absMag;
-    }
-```
+	You can make Constructors for Star class like this:
 
+	```Java
+	public Star(TableRow tr)
+		{
+			this(
+				tr.getInt("Hab?") == 1, 
+				tr.getString("Display Name"), 
+				tr.getFloat("Distance"),
+				tr.getFloat("Xg"),
+				tr.getFloat("Yg"),
+				tr.getFloat("Zg"),
+				tr.getFloat("AbsMag")
+			);
+		}
+		
+		public Star(boolean hab, String displayName, float distance, float xG, float yG, float zG, float absMag) {
+			this.hab = hab;
+			this.displayName = displayName;
+			this.distance = distance;
+			this.xG = xG;
+			this.yG = yG;
+			this.zG = zG;
+			this.absMag = absMag;
+		}
+	```
+	Submit the URL to your fork via [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUNzFGRTJMUzNKVkoxRUZGNUE1VUE2WTZBQy4u)
 
 # Week 3
 - No class because of the bank holiday
