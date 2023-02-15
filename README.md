@@ -57,9 +57,12 @@ Resources
 	```
 	git checkout -b lab4
 	```
-- Do some work on [the lab test from 2016](https://github.com/skooter500/OOP-LabTest1-2016/blob/master/readme.md). We started this in Monday's class, so you have some starter code
+- Do some work on [the lab test from 2016](https://github.com/skooter500/OOP-LabTest1-2016/blob/master/readme.md). We started this in Monday's class, so you have some starter code.
+	- Create the Star class
+	- Load from the csv file into an ArrayList of Star objects
+	- Plot the stars to the grid
 
-	This is how you can load the file into an ArrayList of Star objects:
+- This is how you can load the file into an ArrayList of Star objects:
 
 	```Java
 	void loadStars()
@@ -72,8 +75,7 @@ Resources
 			}
 		}
 	```
-
-	You can make Constructors for Star class like this:
+- You can make Constructors for Star class like this:
 
 	```Java
 	public Star(TableRow tr)
@@ -99,7 +101,8 @@ Resources
 			this.absMag = absMag;
 		}
 	```
-	Submit the URL to your fork via [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUNzFGRTJMUzNKVkoxRUZGNUE1VUE2WTZBQy4u)
+- Commit and push your changes to the repo
+- Submit the URL to your repo via [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUNzFGRTJMUzNKVkoxRUZGNUE1VUE2WTZBQy4u)
 
 # Week 3
 - No class because of the bank holiday
