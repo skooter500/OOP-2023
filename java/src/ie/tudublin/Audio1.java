@@ -43,12 +43,22 @@ public class Audio1 extends PApplet
 
         float half = height / 2;
         float cgap = 255 / (float)ab.size();
+
+        float total = 0;
         for(int i = 0 ; i < ab.size() ; i ++)
         {
+            total += abs(ab.get(i));
             stroke(cgap * i, 255, 255);
             line(i, half, i , half + ab.get(i) * half); 
         }
+        float average = total / (float) ab.size();
 
         
+        float r = average * 200;
+        lerpedR = lerp(lerpedR, r, 0.1f);
+
+        circle(100, 200, lerpedR);
 	}
+
+    float lerpedR = 0;
 }
