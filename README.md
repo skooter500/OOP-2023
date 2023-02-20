@@ -49,6 +49,8 @@ Resources
 - [Recoding of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ESgtwCRYdVpEu2R8RmRUJMQBZA1XDVfpVZrfLEhVDeOaBg?e=23d7az) 
 - I have decided to *keep* the word guys as a gender inclusive term as there is currently no good alternative
 
+- [Recording of the tutorial](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EZ2psbF11CBBuUnuCHCWbjsB8JFIrTLht2xtaH596LGwdA?e=Co3nBE)
+
 ## Lab 
 - Update the master branches of your repos to the code we worked on in Monday's class
 	```
