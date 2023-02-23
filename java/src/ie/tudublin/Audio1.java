@@ -55,6 +55,7 @@ public class Audio1 extends PApplet
         y = height / 2;
         smoothedY = y;
 
+
         
     }
 
