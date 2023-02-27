@@ -53,13 +53,12 @@ public class Audio1 extends PApplet
         colorMode(HSB);
 
         y = height / 2;
-        smoothedY = y;
-
-
-        
+        smoothedY = y;        
     }
 
     float off = 0;
+
+    float lerpedBuffer[] = new float[1024];
 
     public void draw()
     {
@@ -68,11 +67,14 @@ public class Audio1 extends PApplet
         float average = 0;
         float sum = 0;
         off += 1;
+
+
         // Calculate sum and average of the samples
         // Also lerp each element of buffer;
         for(int i = 0 ; i < ab.size() ; i ++)
         {
             sum += abs(ab.get(i));
+            lerpedBuffer[i] = lerp(lerpedBuffer[i], ab.get(i), 0.1f);
         }
         average= sum / (float) ab.size();
 
@@ -89,16 +91,35 @@ public class Audio1 extends PApplet
                     //float c = map(ab.get(i), -1, 1, 0, 255);
                     float c = map(i, 0, ab.size(), 0, 255);
                     stroke(c, 255, 255);
-                    float f = ab.get(i) * halfH;
+                    float f = lerpedBuffer[i] * halfH * 4.0f;
                     line(i, halfH + f, i, halfH - f);                    
                 }
                 break;
         case 1:
-            background(0);            
-            break;
-
+            background(0);
+            for(int i = 0 ; i < ab.size() ; i ++)
+            {
+                //float c = map(ab.get(i), -1, 1, 0, 255);
+                float c = map(i, 0, ab.size(), 0, 255);
+                stroke(c, 255, 255);
+                float f = lerpedBuffer[i] * halfH * 4.0f;
+                line(i, halfH + f, halfH - f, i);                    
+            }
+            break;      
+        case 2:
+            background(0);
+            for(int i = 0 ; i < ab.size() ; i ++)
+            {
+                float c = map(i, 0, ab.size(), mouseX /2, mouseY/ 2);
+                stroke(c, 255, 255);
+                float f = lerpedBuffer[i] * halfH * 4.0f;
+                line(0, i, f, i);              
+                line(width, i, width - f, i);              
+                line(i, 0, i, f);          
+                line(i, height, i, height - f);              
+            }
+            break;          
         }
-        
 
 
         
