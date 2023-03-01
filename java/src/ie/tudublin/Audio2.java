@@ -31,6 +31,10 @@ public class Audio2 extends PApplet{
 
         fft = new FFT(width, 44100);
     }
+    public void PitchSpeller()
+    {
+        
+    }
 
     float[] lerpedBuffer;
     public void draw()
