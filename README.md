@@ -81,6 +81,8 @@ Here is a video of what your finished program might look like:
 
 [![YouTube](http://img.youtube.com/vi/bfLVzCD2UC0/0.jpg)](https://youtu.be/bfLVzCD2UC0)
 
+There is a file called scale.wav in the repo you can use to test your solution
+
 # Week 5 - Digital Audio 1
 - [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ef00smEvputFlEtGJYTqleEBUMA-SFRxoxWUkPEnN34mPA?e=VfutXz)
 
