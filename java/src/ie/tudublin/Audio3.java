@@ -25,7 +25,7 @@ public class Audio3 extends PApplet{
     public void setup()
     {
         m = new Minim(this);
-        ap = m.loadFile("tomp3.cc - 08 PsychNerD and Marco G  More Cowbell.mp3", 1024)
+        ap = m.loadFile("tomp3.cc - 08 PsychNerD and Marco G  More Cowbell.mp3", 1024);
         // i = m.getLineIn(Minim.MONO, width, 44100, 16);
         ab = ap.mix;
         lerpedBuffer = new float[width];
@@ -40,7 +40,7 @@ public class Audio3 extends PApplet{
         colorMode(HSB);
         stroke(255);
         
-        
+        box(100);
     }
 
     float lerpedY = 0;
