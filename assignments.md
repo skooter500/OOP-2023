@@ -30,7 +30,7 @@ Assignment Brief: In this creative coding team project, you will work in a team 
 
 - Divide the work among the team members and assign roles based on each member's strengths and interests. Ensure each team member's contributions are tracked in the Github repository.
 
-- Document your process and showcase your final program in a youtube video highlights the key features and functionalities of your program. Provide a brief description of the song you chose, how you interpreted its mood and structure, and what inspired you to create the visual elements you designed. You will also have an opportunity to showcase your work in an end of year presentation with invited guests, snacks and soft drinks etc.
+- Document your process and showcase your final program in a youtube video highlights the key features and functionalities of your program. Provide a brief description of the song you chose, how you interpreted its mood and structure, and what inspired you to create the visual elements you designed. You will also have an opportunity to showcase your work in an end of year presentation with invited guests, snacks and soft drinks etc. You can bring gogo dancers or circus performers or a monkey. Its up to you.
 
 Requirements:
 
