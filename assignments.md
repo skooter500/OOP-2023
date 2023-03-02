@@ -6,7 +6,7 @@
 
 - [Submit Teams](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUN0I5VjI3RFhISk5JQzRaUkdOQTdCNEgyNy4u)
 
-# Assignment 2 - Due Thursday 27th April 2023 
+# Assignment 2 - Due Wednesday 25th April 2023 
 
 Assignment Title: Abstract Visual Story of a Song *Team Project*
 
@@ -14,7 +14,9 @@ Assignment Brief: In this creative coding team project, you will work in a team 
 
 ## Instructions
 
-- Form a team of up to four students and [submit your team details](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUN0I5VjI3RFhISk5JQzRaUkdOQTdCNEgyNy4u) on Wednesday 8th March. You can do this *in class* so if everybody can please be there to meet your team and discuss your project. 
+- Form a team of up to four students and [submit your team details](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUN0I5VjI3RFhISk5JQzRaUkdOQTdCNEgyNy4u). You should meet *in the lab* on Wednesdays until the assignment is due, so if everybody can please *be there* to meet your team and discuss your project I would really appreciate it.
+
+![dog](images/13vi10.jpg)
 
 - Choose a song that you all agree on that inspires you and reflects your style and interests. You can use any genre, but try to select a song that has a clear structure, rhythm, and mood.
 
