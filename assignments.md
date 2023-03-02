@@ -10,11 +10,11 @@
 
 Assignment Title: Abstract Visual Story of a Song *Team Project*
 
-Assignment Brief: In this creative coding team project, you will work in a team of four to create an abstract visual story of a song. You will use Processing, Minim or the Processing Sound library to create audio responsive elements and Github to manage your project. You will create a program that responds to the audio of a chosen song and generates a visually compelling and abstract representation of the song's mood, tempo, and structure. The program should showcase your teamwork, creativity, technical skills, and ability to effectively communicate emotions and narrative through visual elements.
+Assignment Brief: In this creative coding team project, you will work in a team of up to four, to create an abstract visual story of a song. You will use Processing, Minim or the Processing Sound library to create audio responsive elements and Github to manage your project. You will create a program that responds to the audio of a chosen song and generates a visually compelling and abstract representation of the song's mood, tempo, and structure. The program should showcase your teamwork, creativity, technical skills, and ability to effectively communicate emotions and narrative through visual elements.
 
 ## Instructions
 
-- Form a team of four students and [submit your team details](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUN0I5VjI3RFhISk5JQzRaUkdOQTdCNEgyNy4u) on Wednesday 8th March. You can do this *in class* so if everybody can please be there to meet your team and discuss your project. 
+- Form a team of up to four students and [submit your team details](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUN0I5VjI3RFhISk5JQzRaUkdOQTdCNEgyNy4u) on Wednesday 8th March. You can do this *in class* so if everybody can please be there to meet your team and discuss your project. 
 
 - Choose a song that you all agree on that inspires you and reflects your style and interests. You can use any genre, but try to select a song that has a clear structure, rhythm, and mood.
 
