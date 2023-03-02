@@ -97,7 +97,7 @@ public class Audio3 extends PApplet{
         colorMode(HSB);
         
         float c = map(lerpedAverage, 0, 0.5f, 0, 255);        
-        rot += map(lerpedAverage, 0, 1.0f, 0, 0.5f);
+        rot += map(lerpedAverage, 0, 1.0f, 0, 0.2f);
         float boxSize = map(lerpedAverage, 0, 0.5f, 100, 500);
 
         for(int i = 0; i < cubes.size() ; i ++)
