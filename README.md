@@ -42,8 +42,71 @@ Resources
 - https://github.com/skooter500/OOP_Labtest1_2017_Starter
 - https://github.com/skooter500/OOP-LabTest1-2016
 
+# Week 7 - The Game of Life
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EQyeIpRQ3AxPsA27SVd5CbAB7DvWjpeVJqhUAcEnYXCl1g?e=lCuvXJ)
+- [Epic Conway's Game of Life](https://www.youtube.com/watch?v=C2vgICfQawE)
+- [3D Game of Life](https://www.youtube.com/watch?v=dQJ5aEsP6Fs)
+- [John Conway talks about the game of life](https://www.youtube.com/watch?v=FdMzngWchDk)
+- [The Dream of Life](https://www.youtube.com/watch?v=wU0PYcCsL6o)
+
+# Lab
+I fixed the bugs in the Game of Life code we wrote in the class today. They are in the game_of_life_fixed branch of the repo. To get the code we wrote today and new branch into your fork, run:
+
+```
+git checkout master
+git fetch upstream
+git pull upstream master
+```
+
+Create a branch for the lab:
+
+```
+git checkout -b lab7
+```
+
+Use the debugging tools in VS Code to track down the bug! 
+
+- F9 - Toggle a breakpoint
+- F10 - Step over
+- F11 - Step Into 
+- F5 - Start the debugger
+
+Interactive debuggers tools are essential tools for programmers.
+
+* If you want to cheat, [the solution is here](https://github.com/skooter500/OOP-2023/commit/0106cae8a3fe7b5855aa1ad977d4e6c4224c4c44). The important line is line 35 
+
+Your game of life should look like this (click the image for a video):
+
+[![YouTube](http://img.youtube.com/vi/SmH2r_ChmFY/0.jpg)](https://www.youtube.com/watch?v=SmH2r_ChmFY)
+
+Some extra things you can implement:
+
+- Increase size and change the size of the screen and see what effect this has on the simulation 
+- Press space to pause and resume the simulation
+- Press 1 to randomise the board again
+- Press 2 to clear the board
+- Press 3 to draw a cross shape and see how it evolves
+- Drag the mouse across the window to set cells at the mouse position to be alive.
+
+Some extra things you can implement that are not in the video
+
+- Draw a glider at the mouse position. This is starting pattern that will evolve a pattern that walks across the screen
+- Draw a Gosper Gun at the mouse position. This is a starting pattern that will spawn creatures indefinitely
+
+You can read more about these starting patterns and others in [this wikipedia article](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) and see examples in this video:
+
+[![YouTube](http://img.youtube.com/vi/HMYh4jKdtNU/0.jpg)](https://www.youtube.com/watch?v=HMYh4jKdtNU)
+
+If you want to learn more about cellular automata check out: 
+
+- [The Nature of Code](https://natureofcode.com/)
+- [A New Kind of Science](https://writings.stephenwolfram.com/2017/05/a-new-kind-of-science-a-15-year-view/)
+
 # Week 6 - Digital Audio 2 - Analyzing the FFT
 - [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EaVOsq7ifNlNloBIg1uek9ABKkwOAbcNLygpO7U-g6zS6g?e=fW2KUb)
+
+## Tutorial
+- [Recording](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EfIyi8xt-mFMtFdbKTxaI0EBZOMb-LGuDfwtxDW1AX7_tA?e=wMQ9i0)
 
 ## Lab
 
