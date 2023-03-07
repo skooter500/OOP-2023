@@ -19,6 +19,52 @@ public class Audio1 extends PApplet
     float smoothedY = 0;
     float smoothedAmplitude = 0;
 
+<<<<<<< HEAD
+	public void setup() {
+		colorMode(HSB);
+		background(0);
+
+        minim = new Minim(this);
+
+        ai = minim.getLineIn(Minim.MONO, frameSize, 44100, 16);
+        ab = ai.mix;
+		
+		smooth();
+		
+	}
+
+	
+	
+	public void draw()
+	{	
+		background(0);
+        stroke(255);
+
+        float half = height / 2;
+        float cgap = 255 / (float)ab.size();
+
+        float total = 0;
+        for(int i = 0 ; i < ab.size() ; i ++)
+        {
+            total += abs(ab.get(i)); // get every elemet of the array
+            stroke(cgap * i, 255, 255);
+            line(i, half, i , half + ab.get(i) * half); 
+        }
+        float average = total / (float) ab.size();
+
+        float r = average * 200;
+
+        lerpedR = lerp(lerpedR, r, 0.1f);
+
+        circle(100,200,lerpedR);
+
+        // Lurp algorithm to spoothen it
+
+        
+	}
+
+    float lerpedR = 0;
+=======
     public void keyPressed() {
 		if (key >= '0' && key <= '9') {
 			mode = key - '0';
@@ -137,4 +183,5 @@ public class Audio1 extends PApplet
         */
 
     }        
+>>>>>>> 509d2585355cb6926d8052d563127d02eae26c98
 }
