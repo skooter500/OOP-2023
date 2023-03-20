@@ -5,7 +5,7 @@ import processing.core.PVector;
 
 public class Ship {
     private PVector pos;
-    PApplet p;
+    private PApplet p;
 
     public Ship(float x, float y, float size, int c, PApplet p)
     {
@@ -44,6 +44,10 @@ public class Ship {
     private float rot;
     private int c;
     private float size;
+
+    public void render()
+    {
+    }
 
     
     
