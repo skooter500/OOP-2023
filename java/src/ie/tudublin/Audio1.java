@@ -92,7 +92,7 @@ public class Audio1 extends PApplet
                     float c = map(i, 0, ab.size(), 0, 255);
                     stroke(c, 255, 255);
                     float f = lerpedBuffer[i] * halfH * 4.0f;
-                    line(i, halfH + f, i, halfH - f);                    
+                    line(halfH + f, i, halfH - f, i);                    
                 }
                 break;
         case 1:
