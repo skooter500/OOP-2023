@@ -53,7 +53,7 @@ Alternatively - Work on your assignment!
 
 Here is a video:
 
-[![YouTube](http://img.youtube.com/vi/SmH2r_ChmFY/0.jpg)](https://www.youtube.com/watch?v=SmH2r_ChmFY)
+[![YouTube](http://img.youtube.com/vi/6qzw__ENHlA/0.jpg)](https://www.youtube.com/watch?v=6qzw__ENHlA)
 
 
 # Week 8 - Review Week
