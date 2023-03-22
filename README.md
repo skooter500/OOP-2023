@@ -40,7 +40,23 @@ Resources
 - https://github.com/skooter500/OOP-Test-2019-Solution
 - https://github.com/skooter500/OOP-2018-Lab-Test-2
 - https://github.com/skooter500/OOP_Labtest1_2017_Starter
-- https://github.com/skooter500/OOP-LabTest1-2016
+- https://github.com/skooter500/OOP-LabTest1-
+
+# Week 9 - YASC Part 1 - Encapsulation, transforms
+- [Recording](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ESDnglyD6EJMv558Z-8uqTIBB189eEicCP_nl_BloHH7Ag?e=kTwgN6)
+
+## Lab
+
+Try to make a subclass of Ship called AIShip that moves around the screen autonomously. You can get the AIShip to follow a path made up or an ArrayList of PVector's
+
+Alternatively - Work on your assignment!
+
+Here is a video:
+
+[![YouTube](http://img.youtube.com/vi/SmH2r_ChmFY/0.jpg)](https://www.youtube.com/watch?v=SmH2r_ChmFY)
+
+
+# Week 8 - Review Week
 
 # Week 7 - The Game of Life
 - [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EQyeIpRQ3AxPsA27SVd5CbAB7DvWjpeVJqhUAcEnYXCl1g?e=lCuvXJ)
