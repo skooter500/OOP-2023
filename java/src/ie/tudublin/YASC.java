@@ -10,6 +10,18 @@ public class YASC extends PApplet
 	Ship ship;
 	Ship ship1;
 
+	public boolean[] keys = new boolean[1024]; 
+
+	public void keyPressed()
+	{
+		keys[keyCode] = true;
+	}
+
+	public void keyReleased()
+	{
+		keys[keyCode] = false;
+	}
+
 	// Generic
 	public ArrayList<Bullet> bullets = new ArrayList<Bullet>();
 
@@ -85,11 +97,13 @@ public class YASC extends PApplet
 		ship1.render();
 		ship1.move();
 
-		for(Bullet b:bullets)
+		for(int i = bullets.size() - 1 ; i >= 0 ; i --)
 		{
+			Bullet b = bullets.get(i);
 			b.render();
 			b.move();
 		}
+		
 
 		fill(255);
 		text("Bullets: " + bullets.size(), 50, 50);

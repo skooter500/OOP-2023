@@ -40,7 +40,10 @@ public class Bullet {
 
         pos.add(PVector.mult(forward, speed));
 
-        
+        if (pos.x < 0 || pos.x > p.width || pos.y < 0 || pos.y > p.height)
+        {
+            ((YASC)p).bullets.remove(this);
+        }
 
 
     }
