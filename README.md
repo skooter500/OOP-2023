@@ -26,7 +26,7 @@ Resources
 
 - Week 5 - Teams Submission
 - 26 April - Lab Test 20% 
-- 4 May Assignment Submission - 30%
+- 25 April Assignment Submission - 30%
 - End of Year exam - 50%
 
 # Last years course
