@@ -74,6 +74,8 @@ public class YASC extends PApplet
 
 		println();
 
+		background(0);
+
 		/*startsWith
 		endsWidth
 		substring
@@ -90,7 +92,10 @@ public class YASC extends PApplet
 	}
 
 	public void draw()
-	{	background(0);
+	{	
+		fill(0, 20);
+		noStroke();
+		rect(0, 0, width, height);		
 		ship.render();
 		ship.move();
 
