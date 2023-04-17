@@ -7,9 +7,6 @@ import processing.core.PVector;
 
 public class YASC extends PApplet
 {
-	Ship ship;
-	Ship ship1;
-
 	public boolean[] keys = new boolean[1024]; 
 
 	public void keyPressed()
@@ -23,7 +20,7 @@ public class YASC extends PApplet
 	}
 
 	// Generic
-	public ArrayList<Bullet> bullets = new ArrayList<Bullet>();
+	public ArrayList<GameObject> gameObjects = new ArrayList<GameObject>();
 
 
 	public void settings()
@@ -45,8 +42,13 @@ public class YASC extends PApplet
 	String s3 = "Hello";
 
 	public void setup() {
-		ship = new Ship(width / 2, height / 2, 50, 70, this);
-		ship1 = new Ship(100, 50, 80, 6, this);
+		Ship ship = new Ship(width / 2, height / 2, 50, 70, this);
+		Ship ship1 = new Ship(100, 50, 50, 6, this);
+
+		gameObjects.add(ship);
+		gameObjects.add(ship1);
+		
+
 		colorMode(HSB);
 
 		String s = "I love Star Trek";
@@ -96,22 +98,17 @@ public class YASC extends PApplet
 		fill(0, 20);
 		noStroke();
 		rect(0, 0, width, height);		
-		ship.render();
-		ship.move();
-
-		ship1.render();
-		ship1.move();
-
-		for(int i = bullets.size() - 1 ; i >= 0 ; i --)
+		
+		for(int i = gameObjects.size() - 1 ; i >= 0 ; i --)
 		{
-			Bullet b = bullets.get(i);
+			GameObject b = gameObjects.get(i);
 			b.render();
-			b.move();
+			b.update();
 		}
 		
 
 		fill(255);
-		text("Bullets: " + bullets.size(), 50, 50);
+		text("Game Objects: " + gameObjects.size(), 50, 50);
 
 	}
 }

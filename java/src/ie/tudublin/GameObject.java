@@ -3,7 +3,7 @@ package ie.tudublin;
 import processing.core.PApplet;
 import processing.core.PVector;
 
-public class GameObject {
+public abstract class GameObject  {
 
     // Class, subclasses or classes in the same package
     protected PVector pos;
@@ -55,6 +55,7 @@ public class GameObject {
         this.c = c;
     }
 
-    
+    public abstract void update();
+    public abstract void render();
 
 }

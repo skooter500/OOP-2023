@@ -3,58 +3,41 @@ package ie.tudublin;
 import processing.core.PApplet;
 import processing.core.PVector;
 
-public class Ship {
-    private PVector pos;
-    private PVector forward;
-    private PApplet p;
+public class Ship extends GameObject {
+    
+    float size;
+    float halfSize;
 
     public Ship(float x, float y, float size, int c, PApplet p)
     {
-        pos = new PVector(x, y);
-        forward = new PVector(0, -1);
+        super(x, y, 0, c, p);  
         this.size = size;
-        this.halfSize = size / 2;
-        this.c = c;       
-        this.p = p;  
+        halfSize = size / 2;
     }
 
-
-
-    public PVector getPos() {
-        return pos;
-    }
-    public void setPos(PVector pos) {
-        this.pos = pos;
-    }
-    public float getRot() {
-        return rot;
-    }
-    public void setRot(float rot) {
-        this.rot = rot;
-    }
-    public int getC() {
-        return c;
-    }
-    public void setC(int c) {
-        this.c = c;
-    }
-    public float getSize() {
-        return size;
-    }
-    public void setSize(float size) {
-        this.size = size;
-    }
-    private float rot;
-    private int c;
-    private float size;
-    private float halfSize;
-
+    
     int fireRate = 5;
 
     int toPass = 1000 / fireRate;
     int ellapsed = 1000;
 
-    public void move()
+    int health = 10;
+
+    public void checkCollisions()
+    {
+        for(int i = ((YASC)p).gameObjects.size() - 1 ; i >= 0 ; i --)
+        {
+            GameObject go = ((YASC)p).gameObjects.get(i);
+            if (go instanceof Bullet && PVector.dist(go.pos, pos) < halfSize)
+            {
+                health --;
+                ((YASC)p).gameObjects.remove(go);
+            }
+        }
+
+    }
+
+    public void update()
     {
         forward.x = PApplet.sin(rot);
         forward.y = - PApplet.cos(rot);
@@ -92,13 +75,14 @@ public class Ship {
             
             Bullet b = new Bullet(inFront.x, inFront.y, rot, c, p);
 
-            ((YASC)p).bullets.add(b);
+            ((YASC)p).gameObjects.add(b);
         }
         int now = p.millis();
         timeDelta = now - last;
         ellapsed += timeDelta;
         last = now;
 
+        checkCollisions();
     }
     int last = 0;
     int timeDelta;
@@ -107,6 +91,11 @@ public class Ship {
     {
         p.pushMatrix();
         p.translate(pos.x, pos.y);
+        
+        p.fill(255);
+        p.text("Health: " + health, 50, 0);
+        p.noFill();
+        
         p.rotate(rot);
         p.stroke(c, 255, 255);
         p.line(- halfSize, halfSize, 0, - halfSize);
@@ -114,6 +103,7 @@ public class Ship {
         p.line(halfSize, halfSize, 0, 0);
         p.line(0, 0, -halfSize, halfSize);
         p.popMatrix();
+
     }
 
     
