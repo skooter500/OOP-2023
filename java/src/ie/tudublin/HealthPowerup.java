@@ -2,19 +2,19 @@ package ie.tudublin;
 
 import processing.core.PVector;
 
-public class HealthPowerup extends GameObject implements PowerUp{
+public class HealthPowerup extends GameObject implements PowerUp {
 
     float w;
     float halfW;
-    public HealthPowerup(float x, float y, float r, int c, YASC p)
-    {
+
+    public HealthPowerup(float x, float y, float r, int c, YASC p) {
         super(x, y, r, c, p);
         w = 50;
         halfW = w / 2;
         forward.x = p.random(-1, 1);
         forward.y = p.random(-1, 1);
         forward.normalize();
-        
+
     }
 
     @Override
@@ -28,39 +28,54 @@ public class HealthPowerup extends GameObject implements PowerUp{
     @Override
     public void update() {
         rot += 0.01f;
-        pos.add(PVector.mult(forward, speed));    
+        pos.add(PVector.mult(forward, speed));
 
-        if (pos.x < 0)
-        {
+        if (pos.x < 0) {
             pos.x = p.width;
         }
-        if (pos.y < 0)
-        {
+        if (pos.y < 0) {
             pos.y = p.height;
         }
-        if (pos.x > p.width)
-        {
+        if (pos.x > p.width) {
             pos.x = 0;
         }
 
-        if (pos.y > p.height)
-        {
+        if (pos.y > p.height) {
             pos.y = 0;
         }
     }
 
     @Override
     public void render() {
+        renderGraphics(pos.x, pos.y);
+
+        // If close to edge of screen, render again on the other side
+        if (pos.x < halfW) {
+            renderGraphics(pos.x + p.width, pos.y);
+        }
+        if (pos.y < halfW) {
+            renderGraphics(pos.x, pos.y + p.height);
+        }
+        if (pos.x > p.width - halfW) {
+            renderGraphics(pos.x - p.width, pos.y);
+        }
+        if (pos.y > p.height - halfW) {
+            renderGraphics(pos.x, pos.y - p.height);
+        }
+    }
+
+    public void renderGraphics(float x, float y) {
+
         p.pushMatrix();
         p.noFill();
         p.stroke(255);
-        p.translate(pos.x, pos.y);
+        p.translate(x, y);
         p.rotate(rot);
         p.rect(-halfW, -halfW, w, w);
         p.line(0, -20, 0, 20);
         p.line(-20, 0, 20, 0);
         p.popMatrix();
+
     }
 
-    
 }
