@@ -49,9 +49,9 @@ public class Audio3 extends PApplet{
     public void setup()
     {
         m = new Minim(this);
-        ap = m.loadFile("tomp3.cc - 08 PsychNerD and Marco G  More Cowbell.mp3", 1024);
-        // i = m.getLineIn(Minim.MONO, width, 44100, 16);
-        ab = ap.mix;
+        // ap = m.loadFile("tomp3.cc - 08 PsychNerD and Marco G  More Cowbell.mp3", 1024);
+        ai = m.getLineIn(Minim.MONO, width, 44100, 16);
+        ab = ai.mix;
 
         lerpedBuffer = new float[width];
 

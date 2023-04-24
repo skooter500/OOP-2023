@@ -42,6 +42,9 @@ Resources
 - https://github.com/skooter500/OOP_Labtest1_2017_Starter
 - https://github.com/skooter500/OOP-LabTest1-
 
+# Week 11 - GameObjects & Polymorphism. Also trails!!
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ERXADIzHDzFBofCMgjVIX3sBE7rKQIZEvXnDqh2m1tK2lQ?e=fOgsDF)
+
 # Week 10 - Bullet class, ArrayList
 We added bullet firing and getting removed when the bullets go offscreen. We explored a limitation of the for-each loop
 - [Recording](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EeLy5Kfu281DoiBM-QYCH6oB47P7SJO-7H4nGFJeBxOJbw?e=WRAldo)

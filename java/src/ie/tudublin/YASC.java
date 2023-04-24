@@ -30,6 +30,7 @@ public class YASC extends PApplet
 		PVector a = new PVector(10, 10);
         PVector b = new PVector(20, 20);
 
+
         b = a;
         
         b.x = 30;
@@ -47,6 +48,8 @@ public class YASC extends PApplet
 
 		gameObjects.add(ship);
 		gameObjects.add(ship1);
+		
+		gameObjects.add(new HealthPowerup(60, 100, 0, 255, this));
 		
 
 		colorMode(HSB);
