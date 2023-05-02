@@ -33,6 +33,11 @@ public class Ship extends GameObject {
                 health --;
                 ((YASC)p).gameObjects.remove(go);
             }
+
+            if (go instanceof PowerUp && PVector.dist(go.pos, pos) < halfSize)
+            {
+                ((PowerUp) go).applyTo(this);
+            }
         }
 
     }
@@ -57,8 +62,9 @@ public class Ship extends GameObject {
 
         if (yasc.keys[PApplet.UP])
         {
-            pos.x += forward.x;
-            pos.y += forward.y;
+            pos.add(PVector.mult(forward, 5));
+            //pos.x += forward.x;
+            //pos.y += forward.y;
         }
 
         if (yasc.keys[PApplet.DOWN])

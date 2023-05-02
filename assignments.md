@@ -6,7 +6,7 @@
 
 - [Submit Teams](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUN0I5VjI3RFhISk5JQzRaUkdOQTdCNEgyNy4u)
 
-# Assignment 2 - Due Wednesday 25th April 2023 
+# Assignment 2 - Due Wednesday 3rd May 2023 - IN PERSON DEMOS
 
 Assignment Title: Abstract Visual Story of a Song *Team Project*
 
