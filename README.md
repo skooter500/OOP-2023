@@ -45,7 +45,7 @@ Resources
 
 # Week 12 - Interfaces, AI Startups
 - [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EWzQNU8QlQtBorLRT9VtmNgBnlW6SdHEFbRq6qWchsqKcw?e=TPElOp)
-- [Recording of the tutorial](https://tudublin-my.sharepoint.com/personal/bryan_duggan_tudublin_ie/_layouts/15/stream.aspx?id=%2Fpersonal%2Fbryan%5Fduggan%5Ftudublin%5Fie%2FDocuments%2FRecordings%2FOOP%2D20230427%5F092338%2DMeeting%20Recording%2Emp4&ga=1)
+- [Recording of the tutorial](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ER9j5IePIvFJojTeOO1S7YoBHLwnXMNByin4Y1g0fcsHaA?e=bMgSTh)
 - [Lab Test](https://github.com/skooter500/OOP-2023-Starter)
 - [Solution](https://github.com/skooter500/OOP-2023-Test)
 
